@@ -3,11 +3,10 @@ import { FaInstagram, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { FaXTwitter, FaTiktok } from "react-icons/fa6";
 
 const PROFILE = {
-  name: "Tu Nombre",
-  username: "@tunombre",
-  bio: "Diseñador · Desarrollador · Creador de cosas que importan 🌙",
-  avatar:
-    "https://api.dicebear.com/7.x/avataaars/svg?seed=linktree&backgroundColor=1a1a2e",
+  name: "ANTEIKU DEV/>",
+  username: "@Deivydyst14",
+  bio: "Futuro Desarrollador de software y paginas web.",
+  avatar: "https://github.com/Deivydyst14.png",
   socials: [
     {
       id: "instagram",
@@ -56,22 +55,16 @@ const PROFILE = {
     {
       id: 1,
       label: "🚀 Mi Portafolio",
-      url: "#",
+      url: "https://github.com/Deivydyst14?tab=repositories",
       description: "Proyectos y trabajos",
     },
+
     {
-      id: 2,
-      label: "✍️ Mi Blog",
-      url: "#",
-      description: "Ideas y reflexiones",
+      id: 4,
+      label: "La mejor cancion de todas!!!",
+      url: "https://www.youtube.com/watch?v=OMOGaugKpzs&list=RDH53EoZ3oUJA&index=5",
+      description: "The Police - Every Breath You Take ",
     },
-    {
-      id: 3,
-      label: "🎧 Playlist Favorita",
-      url: "#",
-      description: "Lo que escucho mientras codifico",
-    },
-    { id: 4, label: "📩 Contáctame", url: "#", description: "¡Hablemos!" },
   ],
 };
 
@@ -243,10 +236,10 @@ export default function Linktree() {
         .profile-name.visible { opacity: 1; transform: translateY(0); }
 
         .profile-username {
-          font-size: 12px;
+          font-size: 20px;
           color: #6b6b8a;
           letter-spacing: 2px;
-          text-transform: uppercase;
+          text-transform: none;
           margin-top: 4px;
           margin-bottom: 16px;
           opacity: 0;
@@ -255,7 +248,7 @@ export default function Linktree() {
         .profile-username.visible { opacity: 1; }
 
         .profile-bio {
-          font-size: 13px;
+          font-size: 18px;
           color: #9898b8;
           text-align: center;
           line-height: 1.7;
@@ -267,15 +260,15 @@ export default function Linktree() {
 
         .socials {
           display: flex;
-          gap: 10px;
-          margin-bottom: 36px;
+          gap: 14px;
+          margin-bottom: 20px;
           opacity: 0;
           transition: opacity 0.6s ease 0.5s;
         }
         .socials.visible { opacity: 1; }
 
         .social-btn {
-          width: 42px; height: 42px;
+          width: 60px; height: 60px;
           border-radius: 12px;
           border: 1px solid rgba(255,255,255,0.06);
           background: rgba(255,255,255,0.03);
@@ -306,7 +299,7 @@ export default function Linktree() {
           width: 100%;
           display: flex;
           align-items: center;
-          gap: 12px;
+          gap: 15px;
           margin-bottom: 20px;
           opacity: 0;
           transition: opacity 0.6s ease 0.6s;
@@ -318,7 +311,7 @@ export default function Linktree() {
           background: linear-gradient(90deg, transparent, rgba(124,58,237,0.3), transparent);
         }
         .divider-text {
-          font-size: 10px;
+          font-size: 20px;
           letter-spacing: 3px;
           color: #4a4a6a;
           text-transform: uppercase;
@@ -334,7 +327,7 @@ export default function Linktree() {
         .link-btn {
           width: 100%;
           padding: 16px 20px;
-          border-radius: 14px;
+          border-radius: 15px;
           border: 1px solid rgba(255,255,255,0.07);
           background: rgba(255,255,255,0.025);
           backdrop-filter: blur(10px);
@@ -372,13 +365,13 @@ export default function Linktree() {
 
         .link-left { display: flex; flex-direction: column; gap: 3px; }
         .link-label {
-          font-family: 'Syne', sans-serif;
-          font-size: 15px;
+          font-family: 'fancy text', sans-serif;
+          font-size: 18px;
           font-weight: 700;
           letter-spacing: -0.2px;
         }
         .link-desc {
-          font-size: 11px;
+          font-size: 15px;
           color: #5a5a7a;
           letter-spacing: 0.3px;
         }
@@ -393,8 +386,8 @@ export default function Linktree() {
         }
 
         .footer {
-          margin-top: 48px;
-          font-size: 11px;
+          margin-top: 49px;
+          font-size: 20px;
           color: #3a3a5a;
           letter-spacing: 1px;
           opacity: 0;
@@ -471,7 +464,7 @@ export default function Linktree() {
           </div>
 
           <div className={`footer ${mounted ? "visible" : ""}`}>
-            hecho con ♥ por ti mismo
+            hecho con ♥ por Deivyd :)
           </div>
         </div>
       </div>
