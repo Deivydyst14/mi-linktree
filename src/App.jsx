@@ -3,9 +3,9 @@ import { FaInstagram, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { FaXTwitter, FaTiktok } from "react-icons/fa6";
 
 const PROFILE = {
-  name: "ANTEIKU DEV/>",
-  username: "@Deivydyst14",
-  bio: "Futuro Desarrollador de software y paginas web.",
+  name: "Usuario",
+  username: "@Usuario",
+  bio: "tu bio",
   avatar: "https://github.com/Deivydyst14.png",
   socials: [
     {
@@ -54,9 +54,23 @@ const PROFILE = {
   links: [
     {
       id: 1,
-      label: "🚀 Mi Portafolio",
-      url: "https://github.com/Deivydyst14?tab=repositories",
-      description: "Proyectos y trabajos",
+      label: "Asignar",
+      url: "https://github.com/usuario",
+      description: "Asignar una descripcion",
+    },
+
+    {
+      id: 2,
+      label: "Asignar",
+      url: "https://google.com",
+      description: "asignar una descripcion",
+    },
+
+    {
+      id: 3,
+      label: "Asignar",
+      url: "https://google.com",
+      description: "asignar una descripcion",
     },
 
     {
@@ -464,7 +478,7 @@ export default function Linktree() {
           </div>
 
           <div className={`footer ${mounted ? "visible" : ""}`}>
-            hecho con ♥ por Deivyd :)
+            hecho por Deivyd :)
           </div>
         </div>
       </div>
